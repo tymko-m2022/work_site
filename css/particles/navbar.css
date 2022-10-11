@@ -1,0 +1,37 @@
+  .clear{
+    clear: both;
+  }
+
+nav{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 20, 0);
+  margin-bottom: 50px;
+}
+
+.navbar-list{
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  padding-inline-start: 0px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-link{
+  display: block;
+  color: white;
+  padding: 19px 30px;
+  transition: background-color .5s ease;
+}
+
+.nav-link:hover{
+  background-color: #ef233c;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-list{
+    display: none;
+  }
+}
